@@ -1,0 +1,14 @@
+<nav>
+	<a href="/">Home</a> |
+	<a href="/article/add">Add</a> |
+</nav>
+{{#if username}}
+  <h3> Logged in as {{username}} </h3>
+{{/if}}
+<h1 class="center"> Too Long; Didn't Read </h1>
+<p class="center"> A link aggregation site. Kind of like a terrible version of another site whose names rhymes with "Fed It.". </p>
+
+<h1 id="title">{{title}}</h1>
+<h3>URL: {{url}} </h3>
+<h3>Posted by: {{username}} </h3>
+<p> {{description}} </p>

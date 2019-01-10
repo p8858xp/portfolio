@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+  <head>
+    <title>Landing</title>
+    <meta charset="utf-8" />
+
+
+    <style type="text/css">
+      body{
+        margin: 0px;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      div {
+        border: 1px solid black;
+        box-sizing: border-box;
+      }
+
+      .header_left {
+        margin-left: 20px;
+        width: 100px;
+        float:left;
+        padding: 5px;
+      }
+
+      #header_right {
+        float: right;
+        width: 100px;
+        margin-right: 20px;
+        padding: 5px;
+      }
+
+      #title{
+        margin: auto;
+        margin-top: 20px;
+        width: 50%;
+        height: 50%;
+        padding: 5px;
+      }
+
+      #container_top {
+        margin: auto;
+        margin-top: 20px;
+        width: 1000px;
+        height: 400px;
+        position: relative;
+      }
+
+      #button {
+        width: 120px;
+        height: 20px;
+
+        position: absolute;
+        bottom: 40px;
+        left: 50%;
+        margin-left: -60px;
+        padding: 2px;
+        padding-left: 35px;
+        box-sizing: border-box;
+      }
+
+      #container_bottom {
+        margin: auto;
+        margin-top: 20px;
+        width: 1000px;
+      }
+
+
+    #content1 {
+      width: 330px;
+      height: 100px;
+      float: left;
+      margin-top: 5px;
+      margin-left: 2px;
+    }
+
+    #content2 {
+      width: 330px;
+      height: 100px;
+      margin-top: 5px;
+      float:left;
+      margin-left: 2px;
+    }
+
+    #content3 {
+      width: 330px;
+      height: 100px;
+      margin-top: 5px;
+      margin-left: 3px;
+      float: left;
+    }
+    .clear{
+      clear: both;
+    }
+
+    #left_content {
+      width: 665px;
+      float: left;
+      margin-top: 10px;
+    }
+
+    #content4 {
+      height: 80px;
+    }
+
+    #content5 {
+      height: 800px;
+    }
+
+    #content6 {
+      margin-top: 10px;
+      width: 330px;
+      float: right;
+      height: 880px;
+    }
+
+    
+
+    </style>
+
+  </head>
+
+  <body>
+    <div id = "navigation">
+      <div class = "header_left"><a href="#">Home</a></div>
+      <div class = "header_left"><a href="#">About</a></div>
+      <div class = "header_left"><a href="#">Contact</a></div>
+      <div id = "header_right"><a href="#">Search</a></div>
+      <div class = "clear"></div>
+    </div>
+
+    <div id = "title">Page Title goes here</div>
+
+    <div id = "container_top">
+      <div id = "button"><a href="#">Button</a></div>
+    </div>
+
+    <!-- set up a new container to hold your tiled divs -->
+    <div id = "container_bottom">
+
+      <!-- three column layout -->
+      <div id="content1">content1</div>
+      <div id="content2">content2</div>
+      <div id="content3">content3</div>
+
+      <div class = "clear"></div>
+
+      <!-- left column -->
+      <div id="left_content">
+        <div id="content4">content4</div>
+        <div id="content5">content5</div>
+      </div>
+
+      <!-- right column -->
+      <div id="content6">content6</div>
+
+      <div class = "clear"></div>
+
+    </div>
+
+    <div id="footer">&copy; 2016 Web Design Class</div>
+  </body>
+
+  </html>

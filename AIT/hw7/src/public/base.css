@@ -1,0 +1,84 @@
+#content {
+  text-align: center;
+}
+.dieone{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  float: left;
+  box-sizing: border-box;
+}
+.dietwo{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+.diethree{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 5px;
+  box-sizing: border-box;;
+}
+.diefour{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+.diefive{
+  border: 1px solid black;
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: 5px;
+  box-sizing: border-box;
+}
+.buttonContainer{
+  clear: both;
+  margin-top: 70px;
+}
+.dieone:hover {
+  background-color: lightgreen;
+}
+.dietwo:hover {
+  background-color: lightgreen;
+}
+.diethree:hover {
+  background-color: lightgreen;
+}
+.diefour:hover {
+  background-color: lightgreen;
+}
+.diefive:hover {
+  background-color: lightgreen;
+}
+.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  z-index: 100;
+  background-color: black;
+  opacity: 0.5;
+  box-sizing: border-box;
+}
+div.modal {
+  margin: auto;
+  margin-top: 20%;
+  padding-top: 90px;
+  width: 50%;
+  height: 40%;
+  background-color: white;
+  box-sizing: border-box;
+}
+p {
+  color: red;
+  font-size: 2em;
+}

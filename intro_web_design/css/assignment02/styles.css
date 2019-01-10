@@ -1,0 +1,74 @@
+body {
+  background-color: #003366;
+
+}
+#interestsbody {
+  background-color: #ccffcc;
+}
+#experiencebody {
+  background-color: #8470ff;
+}
+#background {
+  font-size: 200%;
+  color: #eeeeee;
+}
+#contact {
+  font-family: sans-serif;
+  font-size: 100%;
+  color: #eeeeee;
+}
+#hobbies{
+  font-size: 200%;
+  color: #c4d0db;
+}
+#goals {
+  font-size: 200%;
+  color: #c4d0db;
+}
+td {
+  font-family: sans-serif;
+  font-size: 100%;
+}
+h1 {
+  font-family: sans-serif;
+  font-size:100%;
+}
+h2 {
+  font-family: sans-serif;
+  font-size: 120%;
+  color: #a2bef9;
+}
+
+p {
+  font-family: sans-serif;
+  line-height: 120%;
+
+}
+a {
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color:purple;
+}
+a:focus {
+  background-color: black;
+  font-size: 120%;
+}
+a:hover {
+  color: #eeeeee;
+  font-size:120%;
+}
+a:active {
+  color:green;
+}
+
+
+li {
+  font-family: sans-serif;
+  color: #a2bef9;
+  font-size: 110%;
+}

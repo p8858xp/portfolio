@@ -1,0 +1,44 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+ul {
+  list-style-type: none;
+}
+h3 {
+  color: red;
+}
+a {
+  color: grey;
+  float: left;
+  margin-right: 10px;
+}
+.A, .C, .E {
+ color: blue;
+}
+.F, .B, .D, .M {
+  color: orange;
+}
+.G {
+  color: green;
+}
+.N, .Q, .R, .W {
+  color: yellow;
+}
+.J, .Z {
+  color: brown;
+}
+.L {
+  color: grey;
+}

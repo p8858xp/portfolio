@@ -1,0 +1,55 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  color: red;
+}
+h3 {
+  margin-left: 20%;
+}
+form {
+  margin-left: 20%;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+  text-align: left;
+  color: white;
+  background-color: navy;
+}
+table {
+  margin-left: 20%;
+  margin-top: 50px;
+}
+#top {
+  height: 120px;
+  width: 100%;
+  background-color: navy;
+  text-align: center;
+  font-size: 50px;
+  line-height: 110px;
+  color: white;
+}
+#links {
+  padding-top: 10px;
+  width: 250px;
+  height: 660px;
+  margin-top: -180px;
+  text-align: center;
+  background-color: navy;
+  font-size: 20px;
+}
+a {
+    text-decoration: none;
+    line-height: 200%;
+    color: red;
+}
+a:hover {
+  color: white;
+}
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+}​

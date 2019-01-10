@@ -1,0 +1,11 @@
+<hr>
+<h3> Complaints Lists </h3>
+<form method = "GET" action="/">
+  Only show me the complaints on the <input type = "text" name = "filterLine"> Line <input type = "submit" value = "submit">
+</form>
+<ul>
+{{#each list}}
+    <li><span class = "{{subwayLine}}">{{subwayLine}}</span> {{complaint}}</li>
+{{/each}}
+</ul>
+<hr>

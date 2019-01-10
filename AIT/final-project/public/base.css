@@ -1,0 +1,132 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+header {
+	font-size: 100px;
+	color: #e85050;
+}
+#home {
+	height:100px;
+	width: 30%;
+	background-color:#f9ee8a;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 17px;
+	margin-left: 20px;
+}
+iframe{
+	border-radius: 5px;
+	margin-left: 10px;
+}
+#login{
+	margin-left: 10px;
+}
+#register{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+.error {
+	margin-left: 20px;
+	margin-top: 10px;
+}
+#registered {
+	height:90px;
+	width: 30%;
+	background-color: blue;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+#logged {
+	height:90px;
+	width: 30%;
+	background-color: #41f447;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
+	box-sizing: border-box;
+	font-size: 20px;
+}
+#add_score{
+	margin-left: 10px;
+}
+#list{
+	margin-left: 10px;
+	margin-top: 5px;
+}
+#pastscores {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#li {
+	margin-left: 10px;
+}
+input[type="submit"] {
+	margin-top: 5px;
+}
+.goback {
+	margin-top: -5px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+form {
+	margin-left: 5px;
+	border: 1px solid black;
+	width: 30%;
+	margin-top: 10px;
+	background-color: blue;
+	border-radius: 10px;
+	padding: 10px;
+	font-size: 15px;
+	box-sizing: border-box;
+	color: white;
+}
+h1 {
+	margin-left: 10px;
+	margin-top: 10px;
+}
+table {
+	margin-left: 20px;
+	margin-top: 5px;
+}
+th{
+	border: 1px solid black;
+	text-align: center;
+	background-color: blue;
+	color: white;
+}
+td{
+	border: 1px solid black;
+	text-align: center;
+}
+#add{
+	margin-left: 20px;
+	margin-top: 10px;
+	background-color: yellow;
+	width:10%;
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;
+}
+button{
+	margin-left: 5px;
+}
+input {
+	margin-bottom: 8px;
+}
+a {
+	text-decoration: none;
+}
+a:link {
+	color: black;
+}
+a:hover {
+	color: red;
+}
+a:active {
+	color: blue;
+}

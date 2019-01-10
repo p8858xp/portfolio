@@ -1,0 +1,26 @@
+<nav>
+	<a href="/">Home</a> |
+	<a href="/register">Register</a> |
+	<a href="/login">Login</a> |
+</nav>
+<h1 class="center"> Too Long; Didn't Read </h1>
+<p class="center"> A link aggregation site. Kind of like a terrible version of another site whose names rhymes with "Fed It.". </p>
+<h2 id="register">Register</h2>
+{{#if message}}
+<div class="error">{{ message }}</div>
+{{/if}}
+<form method="POST" action="register">
+	<div>
+		<label for="username">Username:</label>
+		<input type="text" name="username" value="">
+	</div>
+	<div>
+		<label for="email">Email:</label>
+		<input type="email" name="email" value="">
+	</div>
+	<div>
+		<label for="password">Password:</label>
+		<input type="password" name="password" value="">
+	</div>
+	<div><input type="submit" value="Register"></div>
+</form>

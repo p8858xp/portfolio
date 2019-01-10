@@ -1,0 +1,26 @@
+<div id="listcontainer">
+  <div id="listcontent">
+    <div class='goback'><a href='/'>Home</a></div>
+    <h1>Your Profile</h1>
+    {{#if list}}
+      <div id="li">Welcome <span id="user"> {{list}}</span></div>
+    {{else if register}}
+      <div id="li">Welcome <span id="user"> {{register}}</span></div>
+    {{/if}}
+    <!-- SHOW TABLE OF USERS PAST SCORES -->
+    <table>
+      <thead>
+        <th>Date</th>
+        <th>Golf Course</th>
+        <th>Par</th>
+        <th>Score</th>
+      </thead>
+      <tbody>
+      </tbody>
+    </table>
+    <!-- have two buttons one for edit and one for delete so the user can do this and it can be updated on the db -->
+    <!-- add a link to add another score -->
+    <div id="add"><a href='/add'>Add a new score</a></div>
+  </div>
+</div>
+<script src="main.js"></script>

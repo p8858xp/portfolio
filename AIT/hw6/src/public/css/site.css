@@ -1,0 +1,22 @@
+a {
+  text-decoration: none;
+}
+.error {
+  background-color: pink;
+  text-align: center;
+}
+.center {
+  text-align: center;
+}
+#title {
+  text-align: center;
+}
+#add{
+  text-align: center;
+}
+#register{
+  text-align: center;
+}
+#login{
+  text-align: center;
+}

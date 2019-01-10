@@ -1,0 +1,31 @@
+.color {
+    background-color: #adcbe3;
+    color: #4b86b4
+  }
+
+  .navbar{
+    margin-bottom: 0px;
+  }
+
+  .carousel{
+    height: 450px;
+    margin-bottom:0px;
+  }
+
+  .thumbnail{
+    border: 0 none;
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .slide-container{
+    margin-top: 10%;
+  }
+  #colors {
+    background-color: #009688;
+    color: #99d5cf;
+  }
+
+  h2 {
+    color:  #99d5cf;
+  }

@@ -1,0 +1,10 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+#mylist {
+  list-style-type: none;
+  border-left: 0px;
+}

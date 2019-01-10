@@ -1,0 +1,24 @@
+<div id="container">
+	<div id="homecontent">
+		{{#if login}}
+			<iframe src="https://giphy.com/embed/Zn7rsVqBTPAly" width="480" height="353" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/will-smith-celebrate-golf-Zn7rsVqBTPAly"></a></p>
+			<p id='logged'>Welcome back {{login}}! Please use the links below to either add a new score or view your profile!</p>
+			 <!-- add show the link to go to add a new score or go to view your current list of scores/record -->
+			<div id='add_score'><a href='/add'>Add a new score</a></div>
+ 			<div id='list'><a href='/list'>View your profile</a></div>
+			<div id='logout'><a href='/logout'>Logout</a></div>
+		{{else if register}}
+			<iframe src="https://giphy.com/embed/qAREK41X3nzl6" width="480" height="320" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/comedy-golf-adam-sandler-qAREK41X3nzl6"></a></p>
+			<p id='registered'>Welcome and thanks for joining GolfStats {{register}}! Please use the links below to either add a new score or view your profile!</p>
+			 <!-- add show the link to go to add a new score or go to view your current list of scores/record -->
+			<div id='add_score'><a href='/add'>Add a new score</a></div>
+			<div id='list'><a href='/list'>View your profile</a></div>
+			<div id='logout'><a href='/logout'>Logout</a></div>
+		{{else}}
+			<iframe src="https://giphy.com/embed/3o6gEeX56uv1US4dUY" width="480" height="480" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/golf-tyler-the-creator-3o6gEeX56uv1US4dUY"></a></p>
+			<p id='home'>Sometimes it's difficult for golfers to keep track of their handicap/average and they don't know exactly what their skill level is. Sooo...that's where GolfStats comes in!</p>
+			<div id='login'><a href='/login'>Already a user? Click on this link to login</a></div>
+			<div id='register'><a href='/register'>New? Click on this link to register now</a></div>
+		{{/if}}
+	</div>
+</div>

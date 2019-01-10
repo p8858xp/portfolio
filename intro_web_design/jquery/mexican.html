@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+          <!-- Media query for narrow browser width -->
+      <link rel="stylesheet" media="only screen and (max-width: 480px)" href="mobile.css">
+
+      <!-- Media query for medium browser width -->
+      <link rel="stylesheet" media="only screen and (min-width: 481px) and (max-width: 960px)" href="tablet.css">
+
+      <!-- Media query for full browser width -->
+      <link rel="stylesheet" media="only screen and (min-width: 961px)" href="desktop.css">
+
+      <!-- Prevent smartphones from scaling pages down -->
+      <meta name="viewport" content="initial-scale=1">
+
+    <title>Mexican</title>
+    <meta charset= "utf-8" />
+
+  </head>
+
+
+
+
+  <body>
+      <a href="../index.html"><h5>Assignments Page<h5></a>
+  		<div id="title">Mexican Food</div>
+      <div id="navigation">
+
+            <div class="button_horizontal"><a href="index.html">Home</a></div>
+
+            <div id="mexico" class="button_horizontal"><a href="mexican.html">Mexican</a>
+              <div id="mexico_menu" class="menu_dropdown">
+                <a href="#"><div class="button_vertical">Web Design</div></a>
+                <a href="#"><div class="button_vertical">Photoshop</div></a>
+                <a href="#"><div class="button_vertical">Wireframing</div></a>
+                <a href="#"><div class="button_vertical">Interactive Design</div></a>
+              </div>
+            </div>
+
+            <div id = "korea" class="button_horizontal"><a href="korean.html">Korean</a>
+              <div id = "korea_menu" class="menu_dropdown">
+                  <a href="#"><div class="button_vertical">Web Design</div></a>
+                  <a href="#"><div class="button_vertical">Photoshop</div></a>
+                  <a href="#"><div class="button_vertical">Wireframing</div></a>
+                  <a href="#"><div class="button_vertical">Interactive Design</div></a>
+              </div>
+            </div>
+
+            <div id = "japan" class="button_horizontal"><a href="japanese.html">Japanese</a>
+              <div id = "japan_menu" class="menu_dropdown">
+                  <a href="#"><div class="button_vertical">Web Design</div></a>
+                  <a href="#"><div class="button_vertical">Photoshop</div></a>
+                  <a href="#"><div class="button_vertical">Wireframing</div></a>
+                  <a href="#"><div class="button_vertical">Interactive Design</div></a>
+              </div>
+            </div>
+
+            <div class="clear"></div>
+      </div>
+
+
+<br />
+<br />
+  <div class="content" id = "colorchanger1">
+
+
+      <div class="words">
+        <div class="leftcontent"> <br />
+          <center><h2>Tacos</h2>
+          <br />
+          One of my favorite restaurants I like to go to is in LA called El Taurino.
+          My go-to taco there is the el pastor taco. Although it's very spicy with the hot
+          sauce, I cannot get enough of it! I love tacos in general so whenever I go back
+          home to LA, one of the first things I crave are tacos.
+          </center>
+      </div>
+    </div>
+
+      <div class="rightcontent">
+        <img src="tacos.jpg" />
+      </div>
+
+      <div class="clear"></div>
+
+  </div>
+
+  <br />
+  <br />
+
+  <div class="content" id = "colorchanger2">
+
+      <div class="words">
+        <div class="leftcontent"> <br />
+          <center><h2>Quesadilla</h2>
+          <br />
+          In this photo, after playing a round of golf, I normally like to go
+          into a restaurant and order a quesadilla because there's not much that
+          can go wrong with the choice. I love how simple yet tasty a quesadilla can be
+          as long as some effort is put in. This quesadilla in particular
+          was not only affordable but extremely appetizing!
+          </center>
+      </div>
+    </div>
+
+      <div class="rightcontent">
+        <img src="quesadilla.jpg" />
+      </div>
+
+      <div class="clear"></div>
+
+  </div>
+
+  <br />
+  <br />
+  <div class="content" id = "colorchanger3">
+
+      <div class="words">
+        <div class="leftcontent"> <br />
+          <center><h2>Nachos</h2>
+          <br />
+          The interesting thing about nachos is that it's not so much a full meal
+          but a side-dish or an appetizer. Although I normally don't order a whole plate
+          of nachos for myself, when I do, I never regret the decision. I think it's a great
+          dish to eat when you're with a group of people; it just creates this friendly
+          environment and I especially love to eat nachos while watching a movie in a theater!
+          </center>
+      </div>
+    </div>
+
+      <div class="rightcontent">
+        <img src="nachos.jpg" />
+      </div>
+
+      <div class="clear"></div>
+
+  </div>
+  <br />
+  <br />
+<center>
+<h2>Watch this video of Gordon Ramsay!</h2>
+<br />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UzFoThs2Qpw" frameborder="0" allowfullscreen></iframe>
+</center>
+
+<script src="jquery-1.12.3.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    // this code executes when the web page has been fully loaded by the browser
+    $(document).ready(function() {
+      // when a menu item is hovered over we need to show the appropriate sub-menu
+      $("#mexico").hover(
+        function() {
+          console.log("here");
+          $("#mexico_menu").slideDown();
+        },
+
+        function() {
+          console.log("here2");
+          $("#mexico_menu").slideUp();
+        }
+
+      );
+
+        $("#korea").hover(
+
+          function() {
+            $("#korea_menu").slideDown();
+          },
+
+          function() {
+            $("#korea_menu").slideUp();
+          }
+
+        );
+
+        $("#japan").hover(
+
+          function() {
+            $("#japan_menu").slideDown();
+          },
+
+          function() {
+            $("#japan_menu").slideUp();
+          }
+
+        );
+
+
+        // clicking on content div will change the background-color property on this div to a RANDOM color
+        $("#colorchanger1").click(function() {
+            // pick three random numbers between 0 and 255
+            var red   = parseInt( Math.random() * 256 );
+            var green = parseInt( Math.random() * 256 );
+            var blue  = parseInt( Math.random() * 256 );
+
+            // construct a RGB color code string
+            var rgb   = "rgb(" + red + "," + green + "," + blue + ")";
+
+        $("#colorchanger1").css("background-color", rgb);
+        });
+        // clicking on content div will change the background-color property on this div to a RANDOM color
+        $("#colorchanger2").click(function() {
+            // pick three random numbers between 0 and 255
+            var red   = parseInt( Math.random() * 256 );
+            var green = parseInt( Math.random() * 256 );
+            var blue  = parseInt( Math.random() * 256 );
+
+            // construct a RGB color code string
+            var rgb   = "rgb(" + red + "," + green + "," + blue + ")";
+
+        $("#colorchanger2").css("background-color", rgb);
+        });
+        // clicking on content div will change the background-color property on this div to a RANDOM color
+        $("#colorchanger3").click(function() {
+            // pick three random numbers between 0 and 255
+            var red   = parseInt( Math.random() * 256 );
+            var green = parseInt( Math.random() * 256 );
+            var blue  = parseInt( Math.random() * 256 );
+
+            // construct a RGB color code string
+            var rgb   = "rgb(" + red + "," + green + "," + blue + ")";
+
+        $("#colorchanger3").css("background-color", rgb);
+        });
+
+
+    });
+
+</script>
+
+</body>
+
+</html>
